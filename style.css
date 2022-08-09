@@ -5,6 +5,11 @@
 }
 #main{
     background-color: #f98800;
+
+    
+}
+main h1{
+    margin: 10px 0px;
 }
 #navbar{
     padding: 25px 10px;
@@ -12,7 +17,7 @@
 }
 #navbar img{
     width: 100%;
-    overflow: hidden;
+
     
 }
 i{
@@ -34,13 +39,28 @@ body{
 @media screen and (min-width: 200px) {
     #i-container  {
       display: block;
+      overflow: hidden;
+      text-align: center;
 
     }
   }
+
   @media screen and (min-width: 700px) {
     #i-container  {
       display: flex;
-
-
     }
-  }
+       }
+#promotion{
+    background-color:#f98800;
+    height: 100vh;
+}
+#promotion h2,h3{
+    font-family: fantasy;
+    text-align: center;
+    padding: 20px 5px;
+    color: white;
+    text-shadow: 4px 4px 5px black,
+                 2px 2px 5px black,
+                 4px 4px 10px black,
+                 5px 5px 10px black;
+}
