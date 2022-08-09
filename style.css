@@ -1,0 +1,46 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+#main{
+    background-color: #f98800;
+}
+#navbar{
+    padding: 25px 10px;
+    background-color: #7d7b76;
+}
+#navbar img{
+    width: 100%;
+    overflow: hidden;
+    
+}
+i{
+    font-size: 20px;
+    font-weight: 700;
+    color: #f98800;
+    padding: 10px 10px;
+}
+body{
+    overflow: hidden;
+}
+#i-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+@media screen and (min-width: 200px) {
+    #i-container  {
+      display: block;
+
+    }
+  }
+  @media screen and (min-width: 700px) {
+    #i-container  {
+      display: flex;
+
+
+    }
+  }
